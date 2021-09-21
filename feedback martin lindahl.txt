@@ -1,0 +1,4 @@
+Det fungerar!
+Du är godkänd.
+Bra jobbat med props och state!
+Githistoriken är mycket kort vilket har utvecklingspotential nästa projekt.
