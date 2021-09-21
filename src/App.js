@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.svg'; //Den här bör du ta bort
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
@@ -30,7 +30,10 @@ function App() {
             </Route>
             <Route path="/movies/:movie" exact>
              <Shows movies={muvies} />
-            </Route>
+            </Route> 
+            {
+             // Här bör du ha en felhantering. http://localhost:3000/movies/title8 leder till ett fult felmeddelande
+            }
           </Switch>
        </Router>
     </div>
